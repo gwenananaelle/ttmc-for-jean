@@ -12,16 +12,21 @@ const markdownParser = unified().use(remarkParse).use(remarkRehype).use(rehypePr
 const appEl = document.querySelector<HTMLDivElement>('#app')!;
 
 (async () => {
-    for (const card of data.cards) {
+    const cardsPerPage = 8;
+
+for (let i = 0; i < data.cards.length; i += cardsPerPage) {
+    // Extraire un paquet de 8 cartes max
+    const cardsBatch = data.cards.slice(i, i + cardsPerPage);
+    
+    // Création page recto (questions)
+    const rectoPage = document.createElement('div');
+    rectoPage.className = 'page recto';
+    for (const card of cardsBatch) {
         const questions: string[] = [];
         for (const question of card.questions) {
             questions.push((await markdownParser.process(question)).toString());
         }
-        const answers: string[] = [];
-        for (const answer of card.answers) {
-            answers.push((await markdownParser.process(answer)).toString());
-        }
-        appEl.innerHTML += `
+        rectoPage.innerHTML += `
         <div class="card" style="--color: var(--color-${card.category})">
             <div class="header">
                 <div class="ttmc" >Tu te mets combien en…</div>
@@ -36,7 +41,18 @@ const appEl = document.querySelector<HTMLDivElement>('#app')!;
                 )
                 .join('')}</div>
         </div>`;
-        appEl.innerHTML += `
+    }
+    appEl.appendChild(rectoPage);
+
+    // Création page verso (réponses)
+    const versoPage = document.createElement('div');
+    versoPage.className = 'page verso';
+    for (const card of cardsBatch) {
+        const answers: string[] = [];
+        for (const answer of card.answers) {
+            answers.push((await markdownParser.process(answer)).toString());
+        }
+        versoPage.innerHTML += `
         <div class="card back" style="--color: var(--color-${card.category})">
             <div class="header">
                 <div class="theme">RÉPONSES</div>
@@ -52,5 +68,7 @@ const appEl = document.querySelector<HTMLDivElement>('#app')!;
         </div>
         `;
     }
+    appEl.appendChild(versoPage);
+}   
 })();
 

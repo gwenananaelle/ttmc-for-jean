@@ -25,16 +25,17 @@ body {
     print-color-adjust: exact !important;
 }
 
-#app {
-    display: flex;
-    flex-wrap: wrap;
+.page {
+    display: grid;
+    grid-template-rows: repeat(3, 73mm);
+    grid-template-columns: repeat(2, 104mm);
     width: 210mm;
     height: 297mm;
-    gap: 2mm 2mm;
-    /* background-image: url(/patron.jpg); */
-    /* border: 0.5mm dashed magenta; */
+    gap: 1.4mm 1mm;
+    background-image: url(/patron.jpg);
+    border: 0.5mm dashed magenta;
     background-size: 100% 100%;
-    padding: 13mm 7mm 13mm 9mm;
+    padding: 0;
 }
 
 .card {
@@ -45,6 +46,8 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 3mm;
+    transform-origin: top left;
+    transform: rotate(-90deg) translateX(-73mm);
 }
 
 .card:has(.questions) {
