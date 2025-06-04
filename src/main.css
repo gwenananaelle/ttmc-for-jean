@@ -61,32 +61,34 @@ body {
 }
 
 .card .header {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 0 1.2mm;
     height: 10mm;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
-    grid-auto-rows: min-content;
-    grid-template-areas: 'ttmc icon ''theme icon';
     color: #FFFFFF;
+    position: relative;
 }
 
 .card .ttmc {
-    grid-area: ttmc;
     font-size: 12px;
     line-height: 12px;
     font-family: var(--font-title);
     font-weight: 600;
+    width: fit-content;
+    align-self: center; 
 }
 
 .card .theme {
-    grid-area: theme;
     text-wrap: balance;
     font-size: var(--size);
     line-height: var(--size);
     font-family: var(--font-title);
     font-weight: 800;
     text-transform: uppercase;
+    width: fit-content;
+    align-self: center;
 }
 
 .card.back .theme {
@@ -94,13 +96,17 @@ body {
     background-color: #782119;
     transform: rotate(-3deg);
     transform-origin: bottom left;
+    width: fit-content;
+    align-self: self-start;
+    padding: 10px 65px;
 }
 
 .card .icon {
     grid-area: icon;
     width: 12mm;
-    position: relative;
-    top: 5px;
+    position: absolute;
+    top: 2px;
+    right: 0px;
 }
 
 .card .questions,
