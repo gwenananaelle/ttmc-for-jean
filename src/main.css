@@ -20,7 +20,7 @@ body {
     margin: 0;
     font-family: var(--font-body);
     font-weight: 500;
-    font-size: 5pt;
+    font-size: 6pt;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
 }
@@ -64,7 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0 1.2mm;
-    height: 10mm;
+    height: 8mm;
     justify-content: center;
     align-content: center;
     color: #FFFFFF;
@@ -72,8 +72,8 @@ body {
 }
 
 .card .ttmc {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 9px;
+    line-height: 10px;
     font-family: var(--font-title);
     font-weight: 600;
     width: fit-content;
@@ -82,8 +82,8 @@ body {
 
 .card .theme {
     text-wrap: balance;
-    font-size: var(--size);
-    line-height: var(--size);
+    font-size: 14px;
+    line-height: 14px;
     font-family: var(--font-title);
     font-weight: 800;
     text-transform: uppercase;
@@ -105,7 +105,7 @@ body {
     grid-area: icon;
     width: 12mm;
     position: absolute;
-    top: 2px;
+    bottom: -6px;
     right: 0px;
 }
 
@@ -123,6 +123,8 @@ body {
 .card .answer {
     align-items: center;
     flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
 
 .card .question {
@@ -163,6 +165,7 @@ body {
     height: 100%;
     float: left;
     margin-right: 5px;
+    font-weight:bold;
 }
 
 .card .question .num {
