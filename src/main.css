@@ -2,11 +2,11 @@
 
 :root {
     --font-title: 'Barlow Condensed', sans-serif;
-    --font-body: 'Quicksand', sans-serif;
-    --color-algo-paradigms: #a7ed34;
-    --color-dev-tools: #3fede3;
-    --color-dev-front: #ff46b5;
-    --color-dev-back: #a96ef4;
+    --font-body: 'Arial', sans-serif;
+    --color-divers: #552762;
+    --color-livre: #A8BD4C;
+    --color-musique: #D2963A;
+    --color-cinema: #5C87B4;
 }
 @page {
     size: a4 portrait;
@@ -19,8 +19,8 @@
 body {
     margin: 0;
     font-family: var(--font-body);
-    font-weight: 700;
-    font-size: 6.8pt;
+    font-weight: 500;
+    font-size: 5pt;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
 }
@@ -30,7 +30,7 @@ body {
     flex-wrap: wrap;
     width: 210mm;
     height: 297mm;
-    gap: 3mm 5mm;
+    gap: 2mm 2mm;
     /* background-image: url(/patron.jpg); */
     /* border: 0.5mm dashed magenta; */
     background-size: 100% 100%;
@@ -39,9 +39,9 @@ body {
 
 .card {
     /* opacity: 0.5; */
-    padding: 3mm;
-    width: 61mm;
-    height: 88mm;
+    padding: 5mm;
+    width: 73mm;
+    height: 104mm;
     display: flex;
     flex-direction: column;
     border-radius: 3mm;
@@ -52,8 +52,8 @@ body {
 }
 
 .card:has(.answers) {
-    color: var(--color);
-    background-color: black;
+    color: #FFFFFF;
+    background-color: var(--color);
 }
 
 .card:has(.answers) .answers {
@@ -63,11 +63,20 @@ body {
 .card .header {
     display: grid;
     gap: 0 1.2mm;
-    height: 20mm;
-    justify-content: start;
+    height: 10mm;
+    justify-content: space-between;
     align-content: center;
     grid-auto-rows: min-content;
-    grid-template-areas: 'icon ttmc' 'icon theme';
+    grid-template-areas: 'ttmc icon ''theme icon';
+    color: #FFFFFF;
+}
+
+.card .ttmc {
+    grid-area: ttmc;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: var(--font-title);
+    font-weight: 600;
 }
 
 .card .theme {
@@ -81,42 +90,52 @@ body {
 }
 
 .card.back .theme {
-    font-size: 20pt;
+    font-size: 9pt;
+    background-color: #782119;
+    transform: rotate(-3deg);
+    transform-origin: bottom left;
 }
 
 .card .icon {
     grid-area: icon;
     width: 12mm;
-    align-self: center;
+    position: relative;
+    top: 5px;
 }
 
 .card .questions,
 .card .answers {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 1pt;
     flex-grow: 1;
+    background-color: #F7F3E2;
+    border-radius: 0 2% 2% 0;
 }
 
 .card .question,
 .card .answer {
-    border-radius: 1mm;
-    background-color: white;
     align-items: center;
+    flex-grow: 1;
 }
 
 .card .question {
-    border: 0.5mm solid black;
+    border-bottom: 0.5mm solid #CAC9C4;
 }
-
+.card .question:last-of-type{
+    border-bottom: none;
+}
 .card .answer {
-    border: 0.5mm solid var(--color);
+    border-bottom: 0.5mm solid #CAC9C4;
+}
+.card .answer:last-of-type{
+    border-bottom: none;
 }
 
 .card .question p,
 .card .answer p {
     margin: 0;
-    padding: 1.5mm;
+    padding: 1mm;
     text-wrap: balance;
 }
 
@@ -130,22 +149,20 @@ body {
 
 .card .question .num,
 .card .answer .num {
+    font-size: 18pt;
     display: grid;
     place-items: center;
     flex-shrink: 0;
-    width: 12px;
-    height: 12px;
+    width: 20pt;
+    height: 100%;
     float: left;
     margin-right: 5px;
-    border-end-end-radius: 2px;
 }
 
 .card .question .num {
-    color: white;
-    background-color: black;
+    color: var(--color);
 }
 
 .card .answer .num {
-    color: black;
-    background-color: var(--color);
+    color: #782119;
 }

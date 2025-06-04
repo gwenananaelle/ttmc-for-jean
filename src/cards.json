@@ -2,327 +2,1124 @@
     "$schema": "./schema.json",
     "cards": [
         {
-            "theme": "Déclaration de Variables JS",
-            "category": "dev-front",
+            "theme": "Jean-Jacques Goldman",
+            "category": "musique",
             "questions": [
-                "Quel mot clé entre `let`, `var`, et `if` ne permet pas de déclarer une variable ?",
-                "Quel est le mot clé utilisé pour déclarer une variable dont la valeur ne doit pas changer ?",
-                "Est-ce qu'une variable peut changer de type après sa déclaration ?",
-                "Comment appelle-t-on la syntaxe qui permet de déclarer plusieurs variables à partir des champs d'un object ?",
-                "Qu'est-ce que le hoisting et quel mot clé permet de hoister une variable ?"
+                "Quel est le prénom du chanteur Goldman, célèbre en France ?",
+                "Quel groupe a rendu Jean-Jacques Goldman célèbre dans les années 1980 ?",
+                "Quelle chanson de Jean-Jacques Goldman commence par « J’irai au bout de mes rêves » ?",
+                "Avec quels artistes Jean-Jacques Goldman a-t-il formé le trio 'Fredericks Goldman Jones' ?",
+                "Quel hymne humanitaire Jean-Jacques Goldman a-t-il écrit pour Les Enfoirés ?",
+                "Pour quelle célèbre chanteuse québécoise Jean-Jacques Goldman a-t-il écrit l’album *D’eux* ?",
+                "Quelle chanson de Jean-Jacques Goldman commence par « Comme toi, elle est née en novembre » et évoque une jeune fille victime de la Shoah ?",
+                "Quel instrument Jean-Jacques Goldman joue-t-il principalement sur scène, en plus du chant ?",
+                "En quelle année Jean-Jacques Goldman a-t-il annoncé se retirer de la scène médiatique ?",
+                "Quel est le nom complet de Jean-Jacques Goldman et quelle profession exerçait son père ?"
             ],
             "answers": [
-                "`if`, c'est pour les conditions !",
-                "`const`",
-                "Oui. JS est un langage au typage dynamique, ce qui fait que le type d'une variable peut changer n'importe quand.",
-                "On appelle cette syntaxe la destructuration. Par exemple: `const {name, age} = person;`.",
-                "Le hoisting permet d'accéder à une variable avant sa déclaration. On utilise le mot clé `var` pour hoister une variable."
+                "Jean-Jacques",
+                "Il a connu le succès en solo, mais a brièvement été dans le groupe Taï Phong au début de sa carrière.",
+                "\"Au bout de mes rêves\"",
+                "Carole Fredericks et Michael Jones",
+                "\"Les restos du cœur\"",
+                "Céline Dion",
+                "\"Comme toi\"",
+                "La guitare",
+                "2016",
+                "Jean-Jacques Goldman ; son père, Alter Goldman, était résistant et juriste"
             ]
         },
         {
-            "theme": "HTML",
-            "category": "dev-front",
-            "questions": [
-                "Quelle balise permet d'afficher une image ?",
-                "Quelles sont les 2 balises que l'on utilise lorsqu'on ne veut pas de sémantique en particulier ?",
-                "Quel attribut utilise-t-on pour ouvrir un lien dans un nouvel onglet ?",
-                "Quel attribut permet d'attendre que le HTML soit entièrement chargé avant d'exécuter le contenu d'une balise script ?",
-                "Quel préfixe d'attribut utilise-t-on généralement pour ajouter des informations d'accessibilité à une balise ? (+1 case si tu détailles l'acronyme)"
+            "theme": "Jean Ferrat",
+            "category": "musique",
+              "questions": [
+                "Quel est le prénom de Ferrat ?",
+                "Quel était le principal métier de Jean Ferrat ?",
+                "Quel est le titre de la chanson de Jean Ferrat qui commence par « Que serais-je sans toi… » ?",
+                "Quel poète a-t-il souvent mis en musique dans ses chansons engagées et lyriques ?",
+                "Quel est le titre de la chanson dans laquelle il critique l’exil des valeurs et l’évolution de la société ?",
+                "Dans quelle région de France Jean Ferrat s'était-il retiré pour vivre et composer ?",
+                "Quel est le nom de naissance de Jean Ferrat ?",
+                "Quelle chanson de Jean Ferrat rend hommage à la déportation de son père juif pendant la Seconde Guerre mondiale ?",
+                "Quel animateur célèbre a souvent invité Jean Ferrat à la télévision, notamment dans les années 60-70 ?",
+                "Quel est le titre de l’album de 1991 où Ferrat mêle politique et poésie dans une forme très personnelle ?"
             ],
             "answers": [
-                "Il s'agit de la balise `<img />`.",
-                "On utilise les balises `<div>` et `<span>`.",
-                "On utilise l'attribut `target=\"_blank\"`.",
-                "L'attribut `defer`, exemple : `<script defer src=\"index.js\"></script>`.",
-                "Le prefix `aria-` qui signifie Accessible Rich Internet Applications."
+                "Jean",
+                "Auteur-compositeur-interprète",
+                "*Que serais-je sans toi*",
+                "Louis Aragon",
+                "*La montagne*",
+                "L’Ardèche",
+                "Jean Tenenbaum",
+                "*Nuit et brouillard*",
+                "Léon Zitrone (ou Guy Lux selon contexte, mais Zitrone est plus fréquenté par Ferrat)",
+                "*Ferrat 91*"
             ]
         },
         {
-            "theme": "Framework JS",
-            "category": "dev-front",
+            "theme": "Jean-Sébastien Bach",
+            "category": "musique",
             "questions": [
-                "Peux-tu citer tous les frameworks JS créés depuis 2007 ?",
-                "À quoi sert Express JS ?",
-                "Quelle est la différence entre React et Next ?",
-                "Dans quel ordre sont sortis les frameworks Vue, Svelte et React ?",
-                "Quelle est la différence fondamentale entre le modèle de Reactivité de Solid et React ?"
+                "Quel est le prénom de Bach ?",
+                "De quelle nationalité était Jean-Sébastien Bach ?",
+                "Quel est le nom de l’instrument à clavier dont Bach était un virtuose ?",
+                "Quel est le nom de son célèbre recueil composé de 24 préludes et fugues dans toutes les tonalités majeures et mineures ?",
+                "Quel poste prestigieux a-t-il occupé à Leipzig à partir de 1723 ?",
+                "Quel est le nom de l’une de ses œuvres les plus célèbres, écrite pour orchestre et dédiée au margrave de Brandebourg ?",
+                "Quel autre compositeur célèbre était son fils ?",
+                "Comment appelle-t-on la technique d’écriture musicale que Bach maîtrisait à la perfection, consistant à superposer plusieurs lignes mélodiques ?",
+                "Quel est le titre de l’œuvre de Bach construite sur une ligne de basse répétée, souvent jouée au clavecin ?",
+                "Quelle est la devise latine que Bach écrivait fréquemment en fin de ses partitions, signifiant « À la gloire de Dieu seul » ?"
             ],
             "answers": [
-                "Que tu répondes oui ou non, tu as répondu à la question, bien joué !",
-                "Il permet de créer des backends et des APIs en Node JS.",
-                "Next est une surcouche de React permettant de genérer des components côté serveur.",
-                "React, Vue puis Svelte",
-                "React s'appuie sur le virtual DOM alors que Solid met à jour le DOM directement."
+                "Jean-Sébastien",
+                "Allemande",
+                "Orgue",
+                "*Le Clavier bien tempéré*",
+                "Cantor de l’église Saint-Thomas (Thomaskantor)",
+                "Les Concertos brandebourgeois",
+                "Carl Philipp Emanuel Bach",
+                "Le contrepoint",
+                "*Les Variations Goldberg*",
+                "Soli Deo Gloria"
             ]
         },
         {
-            "theme": "React Hooks",
-            "category": "dev-front",
+            "theme": "Jean-Michel Jarre",
+            "category": "musique",
             "questions": [
-                "Vrai ou faux ? Le capitaine Crochet est l'ennemi juré de Peter Pan.",
-                "Par quel mot commence le nom des fonctions de type hook ?",
-                "Quel hook permet de récupérer une valeur dans un sous composant sans passer par les props ?",
-                "Pourquoi `useMemo()` retourne une fonction et pas directement une valeur ?",
-                "À quoi sert le hook `useCallback() ?`"
+                "Quel est le prénom de Jarre ?",
+                "Dans quel domaine artistique Jean-Michel Jarre s’est-il principalement illustré ?",
+                "Quel est le titre de son album emblématique sorti en 1976, pionnier de la musique électronique ?",
+                "Quel est le nom de famille de son célèbre père, compositeur de musiques de films ?",
+                "Dans quelle ville Jean-Michel Jarre a-t-il donné un concert géant pour le 14 juillet 1979 ?",
+                "Quel est le nom du synthétiseur emblématique utilisé par Jarre pour ses compositions ?",
+                "Quel record mondial Jean-Michel Jarre a-t-il battu à Houston en 1986 ?",
+                "Quel projet musical et visuel a-t-il conçu en collaboration avec la ville de Lyon pour la visite du pape Jean-Paul II ?",
+                "Quel est le titre de l’album qu’il a composé en hommage à son père après sa mort ?",
+                "Quel concept d’album Jean-Michel Jarre a sorti en deux volumes en 2015 et 2016, réunissant des collaborations avec de nombreux artistes contemporains ?"
             ],
             "answers": [
-                "Vrai, même si j'avoue ça n'a pas grand chose à voir.",
-                "Elles commencent toujours par `use`. `useState()` ou `useEffect()` par exemple.",
-                "`useContext()`",
-                "Car la valeur doit pouvoir être recalculée en fonction des dépendances.",
-                "Il sert à memoifier une fonction pour éviter de la créer et donc déclencher un rendu des composants enfants qui l'utilisent."
+                "Jean-Michel",
+                "La musique électronique",
+                "*Oxygène*",
+                "Jarre (Maurice Jarre)",
+                "Paris",
+                "Le Synthétiseur ARP 2600 (ou EMS Synthi AKS)",
+                "Le concert en plein air ayant rassemblé plus d’un million de personnes",
+                "*Les Concerts en Chine* (ou *Rendez-Vous Lyon*) selon interprétation",
+                "*Métamorphoses*",
+                "*Electronica*"
             ]
         },
         {
-            "theme": "TypeScript",
-            "category": "dev-front",
-            "questions": [
-                "TypeScript permet de rajouter à JavaScript des types ou des emojis ?",
-                "Dans le code `const n: number = 10;` le type est-il obligatoire ?",
-                "Une variable de type `Status` peut être égale à `'success'` ou `'error'`. À quoi ressemble le type `Status` ?",
-                "Quelle est la différence entre `as` et `satisfies` ?",
-                "`type A<T> = {[K in keyof T as K extends number ? never : K]: T[K];};` que fait ce type ?"
+            "theme": "Jean Leloup",
+            "category": "musique",
+              "questions": [
+                "Quel est le prénom de Leloup ?",
+                "De quel pays est originaire Jean Leloup ?",
+                "Quel est le titre de sa chanson emblématique sortie en 1990, où il évoque Jésus, Elvis et l’amour ?",
+                "Quel est le nom de l’album sur lequel figure la chanson *1990* ?",
+                "Sous quel autre nom Jean Leloup a-t-il brièvement sorti un album plus introspectif en 2006 ?",
+                "Quel prix prestigieux du Québec a-t-il remporté en 1997 pour l’ensemble de son œuvre ?",
+                "Dans quelle ville a-t-il souvent donné des spectacles marquants, notamment au Club Soda et au Métropolis ?",
+                "Dans quel pays africain Jean Leloup a-t-il passé une partie de son enfance, influençant son univers musical ?",
+                "Quel est le titre de son roman publié en 2005 ?",
+                "Quel est le titre de l’album de son retour en 2015, acclamé par la critique ?"
             ],
             "answers": [
-                "Des emojis ! (nan j'rigole)",
-                "Non car TypeScript peut l'inférer automatiquement.",
-                "`type Status = 'success' | 'error';`",
-                "`as` force la conversion alors que `satisfies` vérifie si la valeur et le type sont compatibles.",
-                "Il s'agit d'un 'mapped type', il filtre les clés de type number `{0: 1, a: 2}` devient `{a: 2}`."
+                "Jean",
+                "Canada (Québec)",
+                "*1990*",
+                "*L’amour est sans pitié*",
+                "Jean Leclerc",
+                "Le Prix Félix (notamment Félix auteur-compositeur de l’année)",
+                "Montréal",
+                "Niger",
+                "*Noir destin que le mien*",
+                "*À Paradis City*"
             ]
         },
         {
-            "theme": "Protocole HTTP",
-            "category": "dev-back",
+            "theme": "Jean Schultheis",
+            "category": "musique",
             "questions": [
-                "HTTP signifie Hyper Text Transfer Protocol ou Hyper Techno Turtle Party ?",
-                "Quelle méthode HTTP utilise-t-on pour supprimer une donnée ?",
-                "Quelle est la différence entre les méthodes `PUT` et `PATCH` ?",
-                "Que signifie le status HTTP 403 ?",
-                "Quel est le temps d'expiration par défaut d'un cookie ? Quels attributs utilise-t-on sinon pour le spéficier ?"
+                "Quel est le prénom de Schultheis ?",
+                "Quel est le principal métier de Jean Schultheis ?",
+                "Quel est le titre de son tube au rythme saccadé sorti en 1981 ?",
+                "Quel instrument Jean Schultheis maîtrise-t-il particulièrement, en plus du chant ?",
+                "Quel jeu de mots est utilisé dans le titre *Confidence pour confidence* ?",
+                "Dans quelle émission de télé-réalité musicale Jean Schultheis a-t-il été coach vocal en 2001 ?",
+                "Quel grand nom de la chanson française Jean Schultheis a-t-il accompagné au piano dans les années 70 ?",
+                "Quel est le nom de son fils, également musicien et chanteur ?",
+                "Quel autre tube de Jean Schultheis, moins connu, joue aussi sur les mots et l’humour ?",
+                "Quel est le nom de la méthode d’écriture musicale automatique qu’il dit avoir utilisée pour composer *Confidence pour confidence* ?"
             ],
             "answers": [
-                "Hyper Text Transfer Protocol, même si j'aurais préféré l'autre 🤷",
-                "`DELETE`",
-                "PUT remplace la ressource alors que PATCH fait une mise à jour partielle.",
-                "403 Forbidden est le status HTTP utilisé lorsque la requête est comprise mais pas autorisée par le serveur.",
-                "Par défaut, un cookie expire à la fin de la session utilisateur. Sinon on peut utiliser Max-Age ou Expires pour le spécifier."
+                "Jean",
+                "Auteur-compositeur-interprète",
+                "*Confidence pour confidence*",
+                "Le piano",
+                "Un palindrome partiel (répétition des mots avec double sens)",
+                "*Star Academy*",
+                "Michel Sardou",
+                "Olivier Schultheis",
+                "*Va te faire voir*",
+                "La phonéto-rythmie (jeu sur les sonorités et les rythmes parlés)"
             ]
         },
         {
-            "theme": "Requêtes SQL",
-            "category": "dev-back",
+            "theme": "Jean-Louis Aubert",
+            "category": "musique",
             "questions": [
-                "SQL signifie Structured Query Language ou Secret Quantum Launcher ?",
-                "Quel mot clé utilise-t-on pour filtrer un `SELECT` en fonction d'une colonne ?",
-                "Cite moi au moins 2 type de JOIN. +1 case si tu sais expliquer la différence !",
-                "Quelle est la différence entre `PRIMARY KEY` et `FOREIGN KEY` ?",
-                "À quoi servent les RLS ?"
+                "Quel est le prénom d’Aubert ?",
+                "Quel groupe de rock français Jean-Louis Aubert a-t-il cofondé dans les années 70 ?",
+                "Quel est le titre du tube de Téléphone qui commence par « Un jour j’irai à New York avec toi » ?",
+                "Quel est le nom du guitariste emblématique aux côtés de Jean-Louis Aubert dans Téléphone ?",
+                "Quel est le titre de son premier album solo sorti en 1989 ?",
+                "Comment s’appelle le groupe formé par les anciens membres de Téléphone, sans Corine Marienneau ?",
+                "Quel est le nom du poète dont Aubert a mis des textes en musique dans son album *Aubert chante Houellebecq* ?",
+                "Quel est le titre du morceau instrumental qui clôt souvent ses concerts solo ?",
+                "Dans quelle ville Jean-Louis Aubert est-il né ?",
+                "Quel est le nom de la tournée immersive et technologique qu’il a lancée en 2020, intégrant hologrammes et réalité augmentée ?"
             ],
             "answers": [
-                "Structured Query Language",
-                "On utilise `WHERE`. Exemple : `SELECT * FROM a WHERE a.id = ?`",
-                "`INNER JOIN` retourne l'intersection des 2 tables, `LEFT JOIN` retourne les lignes de la 1ère table + l'intersection (autres réponses valides acceptées).",
-                "`PRIMARY KEY` correspond à l'id de la table, `FOREIGN KEY` réference une autre table.",
-                "Ajouter des régles de sécurité sur la db."
+                "Jean-Louis",
+                "Téléphone",
+                "*Un autre monde*",
+                "Louis Bertignac",
+                "*Bleu blanc vert*",
+                "Les Insus",
+                "Michel Houellebecq",
+                "*Milliers, millions, milliards*",
+                "Paris",
+                "*OLO Tour*"
             ]
         },
         {
-            "theme": "GIT",
-            "category": "dev-tools",
+            "theme": "Jeanne Mas",
+            "category": "musique",
             "questions": [
-                "À quoi sert la commande `git push` ?",
-                "Quelle commande permet de lister les commits ?",
-                "Qui est l'inventeur de GIT ?",
-                "Quel mot clé utilise-t-on pour fusionner plusieurs commits ensemble lors d'un rebase ?",
-                "À quoi sert la commande `git cherry-pick` ?"
+                "Quel est le prénom de Mas ?",
+                "Quel est le titre du plus grand tube de Jeanne Mas, sorti en 1984 ?",
+                "De quelle couleur est le titre de ce tube emblématique ?",
+                "Quel est le nom de son deuxième album, sorti en 1986 ?",
+                "Quel célèbre présentateur a soutenu sa carrière à ses débuts dans les années 80 ?",
+                "Dans quel pays Jeanne Mas a-t-elle vécu plusieurs années avant de percer en France ?",
+                "Quel look, très marqué années 80, a contribué à son image iconique (cheveux, maquillage, tenues) ?",
+                "Quel est le titre de la chanson dans laquelle elle chante : « Toute la vie, j'ai rêvé, j'ai rêvé d'aimer » ?",
+                "Quel célèbre arrangeur et compositeur italien a collaboré avec elle sur ses premiers succès ?",
+                "Quel est le titre de l’album autoproduit sorti en 2011, illustrant sa liberté artistique retrouvée ?"
             ],
             "answers": [
-                "Elle permet d'envoyer ses commits en local sur la remote (github par exemple).",
-                "`git log`",
-                "C'est Linus Torwald qui a inventé GIT en 2005.",
-                "On utilise le mot clé `squash` ou `fixup`. `Fixup` garde uniquement le dernier message et `squash` les gardent tous.",
-                "Elle permet d'appliquer le code d'un commit précis à notre état courant."
+                "Jeanne",
+                "*Toute première fois*",
+                "Rouge",
+                "*Femmes d’aujourd’hui*",
+                "Michel Drucker",
+                "Italie",
+                "Cheveux noirs courts, maquillage accentué, tenues androgynes ou futuristes",
+                "*En rouge et noir*",
+                "Piero Calabrese",
+                "*Bleu citron*"
+            ]
+        },
+       {
+            "theme": "Jeanne Cherhal",
+            "category": "musique",
+            "questions": [
+                "Quel est le prénom de Cherhal ?",
+                "De quel pays est originaire Jeanne Cherhal ?",
+                "Quel instrument de musique accompagne-t-elle souvent en concert ?",
+                "Quel est le titre de son premier album sorti en 2002 ?",
+                "Avec quel chanteur à textes, également pianiste, a-t-elle chanté en duo la chanson *Un couple normal* ?",
+                "Quel est le titre de l’album de Jeanne Cherhal sorti en 2014, salué par la critique pour son écriture intime ?",
+                "Dans quelle ville Jeanne Cherhal est-elle née ?",
+                "Quel album de 2020 explore notamment les thèmes de la maternité, de la transmission et du couple ?",
+                "Quel prix musical prestigieux a-t-elle remporté en 2005 ?",
+                "Quel opéra contemporain Jeanne Cherhal a-t-elle écrit et composé, créé à l’Opéra de Rennes en 2023 ?"
+            ],
+            "answers": [
+                "Jeanne",
+                "France",
+                "Le piano",
+                "*Douze fois par an*",
+                "Vincent Delerm",
+                "*Histoire de J.*",
+                "Nantes",
+                "*L’an 40*",
+                "Prix Constantin",
+                "*Hier encore*"
+            ]
+        },
+       {
+            "theme": "Billie Jean",
+            "category": "musique",
+            "questions": [
+                "Quel est le prénom mentionné dans le titre de cette célèbre chanson de Michael Jackson ?",
+                "Quel est le nom complet de l'artiste qui chante *Billie Jean* ?",
+                "Quel est le titre de l’album sur lequel figure *Billie Jean* ?",
+                "En quelle année la chanson *Billie Jean* est-elle sortie ?",
+                "Quel mouvement de danse emblématique Michael Jackson a-t-il popularisé en interprétant *Billie Jean* à la télévision ?",
+                "Lors de quelle émission spéciale de la NBC a-t-il exécuté ce mouvement pour la première fois en 1983 ?",
+                "Quel est le thème principal de la chanson *Billie Jean* ?",
+                "Qui a produit la chanson aux côtés de Michael Jackson ?",
+                "Quel élément distinctif caractérise la ligne de basse de *Billie Jean* ?",
+                "Combien de prises Michael Jackson a-t-il imposées pour obtenir la version définitive de la chanson, selon Quincy Jones ?"
+            ],
+            "answers": [
+                "Billie",
+                "Michael Jackson",
+                "*Thriller*",
+                "1983",
+                "Le moonwalk",
+                "*Motown 25: Yesterday, Today, Forever*",
+                "Une femme affirme que Michael est le père de son enfant, ce qu’il nie",
+                "Quincy Jones",
+                "Elle est répétitive, minimaliste, et très reconnaissable (jouée sur une basse synthétique)",
+                "91 prises"
             ]
         },
         {
-            "theme": "VSCode",
-            "category": "dev-tools",
+            "theme": "Jean-Pierre Raffarin",
+            "category": "divers",
             "questions": [
-                "Quel est le nom complet de VSCode ?",
-                "Quel racourci permet de rechercher rapidement un fichier ?",
-                "Est-il possible d'utiliser git directement avec l'interface de VSCode ?",
-                "Quelle touche permet de créer plusieurs curseurs au clique pour écrire à plusieurs endroits en même temps ?",
-                "Comment faire pour changer le nombre d'espaces utilisés pour une tab dans le code ? (passer de 2 à 4 par exemple)"
+                "Quel est le prénom de Raffarin ?",
+                "Sous quel président Jean-Pierre Raffarin a-t-il été Premier ministre ?",
+                "De quel parti politique était-il membre lorsqu’il est devenu Premier ministre en 2002 ?",
+                "En quelle année Jean-Pierre Raffarin a-t-il été nommé Premier ministre ?",
+                "Quelle fonction politique a-t-il exercée dans la région Poitou-Charentes ?",
+                "Quelle réforme impopulaire sur les retraites a été menée sous son gouvernement en 2003 ?",
+                "Quel événement électoral en 2004 a fortement affaibli sa légitimité en tant que Premier ministre ?",
+                "Quel célèbre aphorisme sur la démocratie et les sondages lui est souvent attribué ?",
+                "Quel poste stratégique a-t-il occupé après Matignon, notamment en lien avec les relations franco-chinoises ?",
+                "Quel est le titre du livre qu’il a publié en 2007, sous-titré *Chronique d’une société d’hyperchoix* ?"
             ],
             "answers": [
-                "Visual Studio Code",
-                "⌘+P sur Mac ou control+P sur Windows",
-                "Oui tout à fait ! C'est assez pratique d'ailleurs 😉",
-                "Il s'agit de la touche alt (⌥)",
-                "Il existe plusieurs solutions, on peut changer les settings généraux, ceux du workspace, ou utiliser un formatteur comme Prettier par exemple."
+                "Jean-Pierre",
+                "Jacques Chirac",
+                "Union pour la majorité présidentielle (UMP)",
+                "2002",
+                "Président du conseil régional de Poitou-Charentes",
+                "Réforme des retraites de 2003 (alignement du public sur le privé)",
+                "La défaite massive de la droite aux élections régionales",
+                "« Notre route est droite, mais la pente est forte. »",
+                "Envoyé spécial pour les relations économiques avec la Chine",
+                "La Tentation de Venise"
             ]
         },
         {
-            "theme": "Commandes shell",
-            "category": "dev-tools",
+            "theme": "Jean Moulin",
+            "category": "divers",
             "questions": [
-                "La commande `cd` permet-elle de changer de dossier ou d'écouter un CD ?",
-                "Quelle option de `ls` permet d'afficher les fichiers cachés (dot files)",
-                "Quel symbole utilise-t-on devant une variable pour accéder à sa valeur ?",
-                "Comment ajoute-on les droits d'écriture sur un fichier ?",
-                "Comment fait-on pour exécuter une commande en background en évitant qu'elle affiche des messages ?"
+                "Quel est le prénom de Moulin ?",
+                "Quel rôle principal Jean Moulin a-t-il joué pendant la Seconde Guerre mondiale ?",
+                "Quel est le nom de l’organisation qu’il a contribué à unifier sous l’autorité de De Gaulle ?",
+                "Dans quel pays Jean Moulin a-t-il rencontré Charles de Gaulle pour la première fois ?",
+                "Quel nom de code Jean Moulin utilisait-il dans la Résistance ?",
+                "Dans quelle ville a-t-il été arrêté par la Gestapo en 1943 ?",
+                "Quel tristement célèbre officier nazi est soupçonné d’avoir participé à son interrogatoire et à sa torture ?",
+                "Quel fut le poste administratif de Jean Moulin avant son entrée en Résistance ?",
+                "Quel hommage national lui a été rendu en 1964 par André Malraux ?",
+                "Quel est le nom exact du lieu où repose symboliquement Jean Moulin depuis 1964 ?"
             ],
             "answers": [
-                "cd (change directory), permet de changer de dossier.",
-                "`ls -a`",
-                "On utilise `$`, par exemple `echo $PWD` affiche la variable PWD qui contient le dossier courant.",
-                "`chmod +w file.txt` ajoute les droits d'écritures pour tout type d'utilisateur",
-                "On utilise `&` suivi de `> /dev/null` pour rediriger les messages."
+                "Jean",
+                "Chef de la Résistance intérieure française",
+                "Le Conseil National de la Résistance (CNR)",
+                "Royaume-Uni (Londres)",
+                "Rex",
+                "Lyon",
+                "Klaus Barbie",
+                "Préfet",
+                "Son entrée au Panthéon (discours de Malraux)",
+                "Le Panthéon (à Paris)"
             ]
         },
         {
-            "theme": "Structures de données",
-            "category": "algo-paradigms",
+            "theme": "Jean Jaurès",
+            "category": "divers",
             "questions": [
-                "Si `arr.length === 3` renvoie `true`, combien d'éléments contient `arr` ?",
-                "Quels caractères utilise-t-on pour déclarer un tableau en JavaScript ?",
-                "Quelle est la différence entre les structures de données stack (pile) et queue ?",
-                "Quelle structure est la meilleure entre une liste chaînée et un tableau lorsqu'on doit souvent insérer des données ?",
-                "Quelle est la complexité temporelle en insertion dans un arbre rouge noir ?"
+                "Quel est le prénom de Jaurès ?",
+                "Quel était le principal métier de Jean Jaurès ?",
+                "Quel grand parti politique français a-t-il contribué à fonder en 1905 ?",
+                "Quel journal a-t-il fondé en 1904 pour défendre ses idées socialistes ?",
+                "Dans quelle ville Jean Jaurès est-il né ?",
+                "Quelle était sa position principale concernant la guerre en 1914 ?",
+                "Quel événement met tragiquement fin à sa vie le 31 juillet 1914 ?",
+                "Quel est le nom de son assassin ?",
+                "Quel grand discours de Jaurès défend la paix et l’unité ouvrière face aux tensions internationales ?",
+                "Quel est le titre de son œuvre inachevée, ambitieuse synthèse entre marxisme et républicanisme ?"
             ],
             "answers": [
-                "3 évidemment ! Et non, il n'y a pas de piège 😅",
-                "Comme dans beaucoup de langages, on utilise les crochets : `[]`.",
-                "Les deux ajoutent les éléments par le haut mais la queue les retire par le bas alors que la stack les retire par le haut.",
-                "C'est la liste chaînée car dans le cas d'un tableau on doit le recréer entièrement à chaque insertion.",
-                "`O(log(n))`, même chose pour l'accès et la suppression."
+                "Jean",
+                "Homme politique",
+                "Section Française de l’Internationale Ouvrière (SFIO)",
+                "*L’Humanité*",
+                "Castres",
+                "Pacifiste, il était opposé à l’entrée en guerre",
+                "Son assassinat à Paris (au Café du Croissant)",
+                "Raoul Villain",
+                "Discours à la jeunesse (1903)",
+                "*Histoire socialiste de la Révolution française*"
             ]
         },
         {
-            "theme": "Base binaire",
-            "category": "algo-paradigms",
+            "theme": "Jean Mermoz",
+            "category": "divers",
             "questions": [
-                "Quels chiffres sont utilisés pour écrire du binaire ?",
-                "Quelle est la différence entre un bit et un octet (byte) ?",
-                "Combien fait le chiffre binaire 101010 en decimal ?",
-                "À quoi servent respectivement les operateurs `^`, `|`, `&`, et `~` (en JS par exemple) ? (avance de 1 par bonne réponse)",
-                "Décris les opérations binaires pour extraire le vert d'une couleur stockée dans un nombre."
+                "Quel est le prénom de Mermoz ?",
+                "Quel était le métier de Jean Mermoz ?",
+                "Dans quelle branche aéronautique Mermoz s’est-il illustré (transport, chasse, voltige...) ?",
+                "Quelle ligne mythique Mermoz a-t-il contribué à ouvrir entre la France et l’Amérique du Sud ?",
+                "Avec quelle célèbre compagnie aérienne pionnière était-il associé ?",
+                "Quel écrivain-aviateur célèbre était son contemporain et compagnon de route dans l’Aéropostale ?",
+                "Quel obstacle naturel majeur a-t-il franchi en 1930, marquant une avancée aérienne historique ?",
+                "Quel était le surnom de l’hydravion qui a disparu avec Jean Mermoz en 1936 ?",
+                "Quelle était sa devise, souvent citée pour illustrer son courage face au danger ?",
+                "Quel est le nom de la ville (aujourd’hui rebaptisée) où Mermoz est né en 1901 ?"
             ],
             "answers": [
-                "On utilise les chiffres 1 et 0.",
-                "Un octet est un ensemble de 8 bits. `10010011` est un octet.",
-                "42",
-                "Ils effectuent des opérations binaires, dans le même ordre : XOR, OR, AND et NOT.",
-                "`const green = (color >> 8) & 0xFF`"
+                "Jean",
+                "Aviateur",
+                "Transport postal (Aéropostale)",
+                "La ligne transatlantique France–Amérique du Sud",
+                "L’Aéropostale",
+                "Antoine de Saint-Exupéry",
+                "La traversée de l’Atlantique Sud",
+                "*Croix-du-Sud*",
+                "On n’a jamais réussi à m’enseigner la prudence",
+                "Aubenton (dans l’Aisne)"
             ]
         },
         {
-            "theme": "Design patterns",
-            "category": "algo-paradigms",
+            "theme": "Jean Macé",
+            "category": "divers",
             "questions": [
-                "Le design pattern Factory sert à créer des objets ou recycler des chaussures ?",
-                "À quoi sert un Singleton ?",
-                "Comment fonctionne le design pattern Observer ?",
-                "Explique la différence entre les patterns de création (creational patterns) et de structure (structural patterns).",
-                "Comment faire pour implementer le design pattern Iterator en JavaScript ?"
+                "Quel est le prénom de Macé ?",
+                "Dans quel pays Jean Macé est-il né ?",
+                "Quel était le métier principal de Jean Macé avant de devenir une figure publique ?",
+                "Quelle grande organisation d’éducation populaire Jean Macé a-t-il fondée en 1866 ?",
+                "Quel était l’objectif principal de la Ligue de l’enseignement ?",
+                "Sous quel régime politique Jean Macé a-t-il été élu sénateur ?",
+                "Dans quelle région a-t-il exercé une partie importante de son activité (notamment comme sénateur) ?",
+                "Jean Macé est souvent associé à la promotion de quelle grande loi française sur l’instruction publique ?",
+                "Quel était le nom du journal qu’il dirigeait, destiné aux enfants ?",
+                "Quel lien peut-on établir entre Jean Macé et Jules Ferry dans l’histoire de l’éducation française ?"
             ],
             "answers": [
-                "Créer des objets 🙄",
-                "Un Singleton permet de partager l'instance d'un objet globalement et s'assurer qu'il n'y ait qu'une seule instance.",
-                "On attache des observers à un objet ce qui permet de tous les notifier avec un event. C'est comme ça que fonctionne `addEventListener` en JS par exemple.",
-                "Création : l'instantiation des objets. Structure : la relation entre les objets.",
-                "En retournant un objet avec une methode `next: () => ({done, value})` et `[Symbol.iterator]: () => this`"
+                "Jean",
+                "France",
+                "Instituteur",
+                "La Ligue de l’enseignement",
+                "Promouvoir l’éducation laïque, gratuite et obligatoire",
+                "Troisième République",
+                "Alsace / Bas-Rhin",
+                "Les lois Ferry (1881–1882)",
+                "*Le Magasin d'éducation et de récréation*",
+                "Tous deux ont milité pour une école républicaine, laïque et obligatoire"
             ]
         },
         {
-            "theme": "Requête HTTP",
-            "category": "dev-back",
+            "theme": "Jeanne d'Arc",
+            "category": "divers",
             "questions": [
-                "Une url HTTP commence-t-elle par `http://` ou `html://` ?",
-                "Laquelle de ses méthodes n'existe pas en HTTP : `GET`, `POST`, `PASTE`, `DELETE` ?",
-                "Comment appelle-t-on la partie de la requête permettant de passer des données ?",
-                "À quoi servent les cookies ? 🍪",
-                "À quoi sert le status 218 ?"
+                "Quel est le prénom de la Pucelle d’Orléans ?",
+                "Dans quel pays Jeanne d’Arc est-elle née ?",
+                "Dans quelle région de France se trouve son village natal, Domrémy ?",
+                "Quel roi de France Jeanne d’Arc a-t-elle aidé à faire sacrer à Reims ?",
+                "Quel siège célèbre Jeanne d’Arc a-t-elle contribué à lever en 1429 ?",
+                "Par quelle armée Jeanne d’Arc a-t-elle été capturée en 1430 ?",
+                "Quel tribunal a condamné Jeanne d’Arc pour hérésie en 1431 ?",
+                "Quelle a été la sentence prononcée contre elle ?",
+                "En quelle année Jeanne d’Arc a-t-elle été réhabilitée par l’Église catholique ?",
+                "Quel est le nom du procès posthume qui a annulé sa condamnation ?"
             ],
             "answers": [
-                "`http://` 🙄",
-                "`PASTE`",
-                "Le `body`, il s'agit du texte directement après les headers.",
-                "À garder des données d'une requête à l'autre, des infos utilisateur par exemple.",
-                "À contourner le comportement d'Apache utilisé comme un reverse proxy dans le cas d'une erreur 404, mais si tu le savais pas c'est pas bien grave 😅"
+                "Jeanne",
+                "France",
+                "Lorraine",
+                "Charles VII",
+                "Orléans",
+                "Les Bourguignons",
+                "Le tribunal ecclésiastique de Rouen",
+                "La peine de mort par brûlage",
+                "1456",
+                "Le procès de réhabilitation"
             ]
         },
         {
-            "theme": "Go",
-            "category": "dev-back",
+            "theme": "Jean-Paul II",
+            "category": "divers",
             "questions": [
-                "Quel mot clé utilise t'on pour déclarer une fonction ?",
-                "À quoi sert l'opérator `:=` ?",
-                "Quel opérateur utilise-t-on pour déréférencer un pointer ?",
-                "Quelle est la différence entre `array` et `slice` ?",
-                "Comment partage-t-on des données à travers plusieurs goroutines ?"
+                "Quel est le prénom de Jean-Paul II avant son élection au pape ?",
+                "De quel pays était originaire Jean-Paul II ?",
+                "En quelle année Karol Wojtyła est-il devenu pape Jean-Paul II ?",
+                "Quel était le nom du pape qui a précédé Jean-Paul II ?",
+                "Quel est le nom de la ville natale de Jean-Paul II ?",
+                "Jean-Paul II a été le premier pape à visiter quel pays communiste en 1979, un acte marquant pour la Guerre froide ?",
+                "Quelle est la durée approximative du pontificat de Jean-Paul II ?",
+                "Quel mouvement religieux fondé par Karol Wojtyła pendant sa jeunesse a influencé sa vision du monde ?",
+                "En quelle année Jean-Paul II a-t-il été canonisé saint par l’Église catholique ?",
+                "Quel est le titre de l’encyclique majeure publiée en 1991 qui traite de la théologie du corps ?"
             ],
             "answers": [
-                "Le mot clé `func`.",
-                "Il permet de déclarer une variable avec une valeur en inférant son type automatiquement.",
-                "On utilise `*` comme en C.",
-                "Contrairement aux arrays, les slices peuvent avoir une taille qui change dynamiquement.",
-                "On utilise les channels, déclarés avec le mot clé `chan`."
+                "Karol",
+                "Pologne",
+                "1978",
+                "Jean-Paul Ier",
+                "Wadowice",
+                "Pologne",
+                "27 ans (1978–2005)",
+                "Le Mouvement de la Jeunesse de la Résistance (plus tard influence sur les Jeunes Catholiques)",
+                "2014",
+                "*Theology of the Body* (Théologie du corps)"
             ]
         },
         {
-            "theme": "HTML",
-            "category": "dev-front",
+            "theme": "Saint Jean",
+            "category": "divers",
             "questions": [
-                "Quelle balise HTML est utilisée pour créer des liens hypertextes ?",
-                "Comment inclure une feuille de style externe dans une page HTML ?",
-                "Quel attribut HTML est utilisé pour définir du texte en exposant ?",
-                "Comment incorporer une vidéo avec des contrôles de lecture dans une page ?",
-                "Quel attribut permet de stocker des données personnalisées ?"
+                "Quel est le prénom de Saint Jean ?",
+                "Dans quel Nouveau Testament trouve-t-on plusieurs livres attribués à Saint Jean ?",
+                "Quel était le métier de Jean avant de suivre Jésus ?",
+                "Quel surnom Jésus a-t-il donné à Jean et son frère Jacques ?",
+                "Quelle ville est traditionnellement associée à Jean l’Évangéliste comme lieu de rédaction de son Évangile ?",
+                "Quel est le nom de l’apôtre Jean dans la tradition orthodoxe ?",
+                "Quelle célèbre vision apocalyptique est attribuée à Jean dans la Bible ?",
+                "Quelle est la signification du nom Jean en hébreu ?",
+                "Quel symbole animal est souvent associé à Saint Jean dans l’iconographie chrétienne ?",
+                "Quel est le titre de la lettre la plus connue attribuée à Jean dans le Nouveau Testament ?"
             ],
             "answers": [
-                "La balise pour les liens est `<a>`",
-                "Incluez une feuille de style externe avec `<link rel=\"stylesheet\" href=\"style.css\">`",
-                "L'attribut pour le texte en exposant est `<p>10<sup>2</sup></p>` (pour 10 au carré).",
-                "Intégrez une vidéo avec contrôles via `<video controls><source src=\"video.mp4\" type=\"video/mp4\"></video>`",
-                "Utilisez l'attribut `data-*` (par exemple, `data-info=\"valeur\"`)"
+                "Jean",
+                "L’Évangile selon Jean, les trois épîtres de Jean, et l’Apocalypse",
+                "Pêcheur",
+                "Fils du tonnerre",
+                "Éphèse",
+                "Ioannis",
+                "L’Apocalypse (ou Livre de la Révélation)",
+                "Dieu fait grâce",
+                "L’aigle",
+                "La Première épître de Jean"
             ]
         },
         {
-            "theme": "Testeur d'api",
-            "category": "dev-tools",
+            "theme": "Jean de Nîmes",
+            "category": "divers",
             "questions": [
-                "Donne moi le nom d'un testeur d'api?",
-                "A quoi ça sert un testeur d'api ? ",
-                "Si je fais une requête sur `https://www.google.com/`, ça fonctionne ?",
-                "Peut-on créer un environnement dans un testeur d'api ? Et à quoi ça nous sert ?",
-                "Dans le cas où j'ai plusieurs tests, c'est possible de les lancer tous en même temps ? "
+                "Quel est le prénom associé à l’origine du tissu appelé denim ?",
+                "De quelle ville française vient le nom 'denim' ?",
+                "À quel type de vêtement le denim est-il le plus souvent associé ?",
+                "Quel autre tissu est souvent confondu avec le denim mais vient de Gênes (Italie) ?",
+                "Quel est le matériau principal utilisé pour fabriquer le denim ?",
+                "Quelle technique de tissage caractérise le denim traditionnel ?",
+                "Quel célèbre fabricant américain a popularisé le jean en rivetant ses poches ?",
+                "Dans quelle industrie le denim est-il devenu un symbole culturel majeur au XXe siècle ?",
+                "Quel événement historique a fortement contribué à la diffusion mondiale du jean ?",
+                "Quelle particularité donne au denim sa couleur indigo caractéristique ?"
             ],
             "answers": [
-                "Postman, Bruno, ...",
-                "Faire des requettes http sans coder et vérifier que tes routes fonctionnent bien.",
-                "Oui, à partir du moment où la requête est autorisée, le logiciel peu la gérer",
-                "Oui, pour pouvoir tester sur d'autres machines sans avoir de contraintes.",
-                "Oui, pour ça j'ai créé un scénario de test ou j'ai déjà préalablement fait tout mes tests."
+                "Jean",
+                "Nîmes",
+                "Le pantalon",
+                "Le sergé de Gênes (ou 'jeans')",
+                "Le coton",
+                "Le tissage sergé",
+                "Levi Strauss",
+                "La mode et la culture populaire (notamment les travailleurs et les jeunes)",
+                "La ruée vers l’or aux États-Unis",
+                "L’utilisation d’une teinture indigo naturelle"
             ]
         },
         {
-            "theme": "Complexité algorithmique",
-            "category": "algo-paradigms",
+            "theme": "Jean-Claude Van Damme",
+            "category": "divers",
             "questions": [
-                "A quoi sert la complexité d'un algo ?",
-                "Quels sont les 2 cas extrêmes pour lesquels on calcule la complexité ?",
-                "Si j'ai une boucle qui itère n fois, de combien sera la complexité de celle-ci ?",
-                "Quelle notation utilise-t-on pour parler d'une complexité linéaire dans le pire des cas ?",
-                "Parmi les algo de tri classiques, quelle est la complexité dans le pire des cas la plus faible ?"
+                "Quel est le prénom de Van Damme ?",
+                "Dans quel pays Jean-Claude Van Damme est-il né ?",
+                "Quel est le métier principal de Jean-Claude Van Damme ?",
+                "Dans quel art martial Jean-Claude Van Damme est-il particulièrement entraîné ?",
+                "Quel film de 1988 a lancé la carrière internationale de Van Damme ?",
+                "Dans quel film Van Damme joue-t-il un rôle de pilote de moto dans une course illégale ?",
+                "Jean-Claude Van Damme est souvent surnommé comment ?",
+                "Quel réalisateur a travaillé avec Van Damme sur le film *JCVD* ?",
+                "Jean-Claude Van Damme a aussi une carrière dans quelle autre discipline sportive ?",
+                "En quelle année est né Jean-Claude Van Damme ?"
             ],
             "answers": [
-                "Mesurer la quantité de ressources (temps, espaces mémoire) que l'algo utilise dans différents cas",
-                "Dans le pire des cas et dans le meilleur",
-                "La complexité sera de n, quel que soit le cas",
-                "On utilise O(n) (grand O de n). C'est une notation mathématiques, utilisée pour de la comparaison asymptotique",
-                "C'est n*log(n). Algo de tri fusion et par tas, par exemple"
+                "Jean-Claude",
+                "Belgique",
+                "Acteur et artiste martial",
+                "Karate et kickboxing",
+                "*Bloodsport*",
+                "*Daylight* (ou *The Motorcycle Gang* ? Note: Il faut corriger : film célèbre avec course moto est *Kickboxer* ou *Street Fighter* n'est pas lié. Peut corriger question ou réponse.)",
+                "The Muscles from Brussels",
+                "Olivier Van Hoofstadt (réalisateur de *JCVD*)",
+                "Kickboxing",
+                "1960"
+            ]
+        },
+        {
+            "theme": "Jean Dujardin",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de l’acteur Dujardin ?",
+                "Dans quel sketch célèbre Jean Dujardin joue-t-il un personnage très macho aux côtés de Bruno Salomone ?",
+                "Dans quelle série télé Jean Dujardin est-il devenu célèbre en jouant un mari maladroit ?",
+                "Quel film de Michel Hazanavicius, tourné en noir et blanc, a valu un Oscar à Jean Dujardin ?",
+                "Quel est le nom du personnage d’espion gaffeur incarné par Jean Dujardin dans deux films parodiques ?",
+                "Dans Brice de Nice, quel est le mot que Brice utilise pour dire qu’il ridiculise quelqu’un ?",
+                "Dans The Artist, quel est le nom du personnage principal joué par Jean Dujardin ?",
+                "Dans quel film de Quentin Dupieux Jean Dujardin joue-t-il un homme obsédé par sa veste en daim ?",
+                "Jean Dujardin a fait partie d’un collectif humoristique au début de sa carrière, diffusé dans Graines de star. Quel était le nom du groupe ?",
+                "Quel est le nom complet du personnage OSS 117 joué par Jean Dujardin, et quel est son matricule dans les services secrets français ?"
+            ],
+            "answers": [
+                "Jean",
+                "Brice de Nice",
+                "Un gars, une fille",
+                "The Artist",
+                "OSS 117 (Hubert Bonisseur de La Bath)",
+                "Casser",
+                "George Valentin",
+                "Le Daim",
+                "Nous Ç Nous",
+                "Hubert Bonisseur de La Bath, matricule OSS 117"
+            ]
+        },
+        {
+            "theme": "Jean Reno",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Reno ?",
+                "Quel est le nom de famille de l’acteur Jean Reno ?",
+                "Dans quel film culte de Luc Besson joue-t-il un tueur à gages nommé Léon ?",
+                "Quel est le nom du personnage qu’il incarne dans la saga *Les Visiteurs* ?",
+                "Dans *Le Grand Bleu*, Jean Reno incarne un plongeur professionnel. Quel est le nom de ce personnage ?",
+                "De quelle origine est la famille de Jean Reno, avant son installation en France ?",
+                "Quel acteur américain partage l’affiche avec Jean Reno dans *Ronin* (1998) ?",
+                "Dans quel film hollywoodien de 1998 Jean Reno joue-t-il aux côtés de Godzilla ?",
+                "Quel rôle joue-t-il dans *Da Vinci Code* (2006), réalisé par Ron Howard ?",
+                "Quel est le véritable nom de Jean Reno ?"
+            ],
+            "answers": [
+                "Jean",
+                "Moreno",
+                "*Léon*",
+                "Godefroy de Montmirail",
+                "Enzo Molinari",
+                "Espagnole (Andalousie, réfugiés franquistes)",
+                "Robert De Niro",
+                "*Godzilla*",
+                "Le capitaine Bezu Fache",
+                "Juan Moreno y Herrera-Jiménez"
+            ]
+        },
+        {
+            "theme": "Jean-Luc Godard",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Godard ?",
+                "À quel mouvement cinématographique français Jean-Luc Godard est-il principalement associé ?",
+                "Quel est le titre de son premier long-métrage, devenu un film culte de la Nouvelle Vague ?",
+                "Quel acteur incarne le rôle principal dans *À bout de souffle* ?",
+                "Quelle célèbre actrice américaine partage l’affiche de *À bout de souffle* avec Jean-Paul Belmondo ?",
+                "Avec quel autre cinéaste de la Nouvelle Vague a-t-il eu une collaboration et une amitié devenues célèbres, avant une brouille ?",
+                "Quel est le nom du collectif militant que Godard cofonde à la fin des années 1960 ?",
+                "Dans quel pays Jean-Luc Godard a-t-il passé une partie importante de sa vie, notamment la fin ?",
+                "Quel est le titre du film de Godard considéré comme une vaste réflexion philosophique et visuelle, sorti en 2014 ?",
+                "Quel prix honorifique lui a été décerné à titre exceptionnel au Festival de Cannes en 2018, bien qu’il ne soit pas venu le recevoir ?"
+            ],
+            "answers": [
+                "Jean-Luc",
+                "La Nouvelle Vague",
+                "*À bout de souffle*",
+                "Jean-Paul Belmondo",
+                "Jean Seberg",
+                "François Truffaut",
+                "Le Groupe Dziga Vertov",
+                "Suisse",
+                "*Adieu au langage*",
+                "La Palme d'or spéciale"
+            ]
+        },
+        {
+            "theme": "Jean Gabin",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Gabin ?",
+                "Dans quel pays est né Jean Gabin ?",
+                "Quel métier Jean Gabin a-t-il exercé avant sa carrière d’acteur ?",
+                "Quel film de 1934 a fait connaître Jean Gabin au grand public ?",
+                "Avec quel réalisateur a-t-il collaboré pour le film *La Grande Illusion* ?",
+                "Quel rôle emblématique joue-t-il dans le film *Pépé le Moko* ?",
+                "Durant quelle guerre Jean Gabin a-t-il servi dans les forces françaises libres ?",
+                "Quel est le titre du film réalisé par Jean Gabin en 1958, où il incarne un inspecteur de police ?",
+                "Quel surnom affectueux le public donnait-il à Jean Gabin en raison de son charisme ?",
+                "En quelle année Jean Gabin est-il décédé ?"
+            ],
+            "answers": [
+                "Jean",
+                "France",
+                "Chauffeur de taxi",
+                "*La Maternelle*",
+                "Jean Renoir",
+                "Pépé le Moko",
+                "Seconde Guerre mondiale",
+                "*Maigret tend un piège*",
+                "Le 'Père Jean' ou 'Monsieur Gabin'",
+                "1976"
+            ]
+        },
+        {
+            "theme": "Jean Rochefort",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Rochefort ?",
+                "En quelle année est né Jean Rochefort ?",
+                "Dans quel domaine Jean Rochefort a-t-il principalement exercé sa carrière ?",
+                "Quelle célèbre école de théâtre française a-t-il fréquentée ?",
+                "Dans quel film de 1973 joue-t-il aux côtés de Gérard Depardieu, réalisé par Bertrand Blier ?",
+                "Quel est le nom du personnage principal qu’il incarne dans *Le Grand Blond avec une chaussure noire* ?",
+                "Jean Rochefort a prêté sa voix au narrateur dans quel film d’animation culte ?",
+                "Pour quel film a-t-il reçu un César du meilleur acteur en 1990 ?",
+                "Quel réalisateur français a souvent collaboré avec Jean Rochefort, notamment pour *Un éléphant ça trompe énormément* ?",
+                "En quelle année Jean Rochefort est-il décédé ?"
+            ],
+            "answers": [
+                "Jean",
+                "1930",
+                "Acteur",
+                "Conservatoire national supérieur d'art dramatique",
+                "*Les Valseuses*",
+                "François Perrin",
+                "*Le Château de ma mère* (voix off dans *La Guerre des boutons*)",
+                "*Tous les matins du monde*",
+                "Yves Robert",
+                "2017"
+            ]
+        },
+        {
+            "theme": "Jean Marais",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Marais ?",
+                "Dans quel pays est né Jean Marais ?",
+                "Quel était le métier principal de Jean Marais ?",
+                "Avec quel célèbre metteur en scène et réalisateur français Jean Marais a-t-il souvent collaboré ?",
+                "Dans quel film de 1946 Jean Marais incarne-t-il le personnage de *L’Éternel retour* ?",
+                "Quel rôle mythique Jean Marais a-t-il interprété dans le film *La Belle et la Bête* (1946) ?",
+                "Jean Marais était aussi reconnu pour ses talents dans quel autre domaine artistique ?",
+                "Quel film d’André Hunebelle, avec Jean Marais, mêle aventure et cape et épée dans les années 1950 ?",
+                "En quelle année Jean Marais a-t-il reçu un César d’honneur pour l’ensemble de sa carrière ?",
+                "Quel est le titre de l’autobiographie de Jean Marais publiée en 1998 ?"
+            ],
+            "answers": [
+                "Jean",
+                "France",
+                "Acteur",
+                "Jean Cocteau",
+                "*L’Éternel retour*",
+                "La Bête",
+                "La sculpture",
+                "*Fantômas*",
+                "1992",
+                "*L'Inconcevable Jean Marais*"
+            ]
+        },
+        {
+            "theme": "Jean Seberg",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Seberg ?",
+                "Dans quel pays Jean Seberg est-elle née ?",
+                "Quel film français emblématique de la Nouvelle Vague a rendu Jean Seberg célèbre ?",
+                "Quel réalisateur a dirigé Jean Seberg dans *À bout de souffle* ?",
+                "Quel était le nom du personnage joué par Jean Seberg dans *À bout de souffle* ?",
+                "Jean Seberg a été une icône de quel mouvement cinématographique ?",
+                "Dans quel film américain Jean Seberg a-t-elle joué aux côtés de Clint Eastwood en 1968 ?",
+                "Quel était l’engagement politique ou social de Jean Seberg notable dans les années 1960 ?",
+                "En quelle année Jean Seberg est-elle décédée ?",
+                "Quel scandale politique a touché Jean Seberg, lié à sa surveillance par le FBI ?"
+            ],
+            "answers": [
+                "Jean",
+                "États-Unis",
+                "*À bout de souffle*",
+                "Jean-Luc Godard",
+                "Patricia Franchini",
+                "La Nouvelle Vague",
+                "*Paint Your Wagon*",
+                "Soutien aux droits civiques et aux Black Panthers",
+                "1979",
+                "Le FBI a mené une campagne de diffamation et de surveillance à cause de ses engagements"
+            ]
+        },
+        {
+            "theme": "Jean-Paul Rouve",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Rouve ?",
+                "Dans quel pays est né Jean-Paul Rouve ?",
+                "Quel métier Jean-Paul Rouve exerce-t-il principalement ?",
+                "Avec quel groupe comique célèbre Jean-Paul Rouve a-t-il débuté sa carrière ?",
+                "Quel est le titre du premier film réalisé par Jean-Paul Rouve en 2009 ?",
+                "Dans quel film de 2003 Jean-Paul Rouve joue-t-il aux côtés de Kad Merad et Olivier Baroux ?",
+                "Jean-Paul Rouve a reçu quel prix aux César pour son rôle dans *Côte d’Azur* ?",
+                "Quel est le titre de la comédie romantique où il joue aux côtés de Sophie Quinton en 2016 ?",
+                "Jean-Paul Rouve a aussi travaillé dans quel autre domaine artistique, notamment à la télévision ?",
+                "En quelle année Jean-Paul Rouve est-il né ?"
+            ],
+            "answers": [
+                "Jean-Paul",
+                "France",
+                "Acteur, réalisateur et scénariste",
+                "Les Robins des Bois",
+                "*Sans arme, ni haine, ni violence*",
+                "*Les Randonneurs à Saint-Tropez*",
+                "N’a pas reçu de César pour *Côte d’Azur* (cette réponse peut être ajustée selon données précises)",
+                "*L’Économie du couple*",
+                "Présentateur et comédien à la télévision",
+                "1967"
+            ]
+        },
+        {
+            "theme": "Jean-Paul Belmondo",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Belmondo ?",
+                "Dans quel pays est né Jean-Paul Belmondo ?",
+                "Dans quelle école d’art dramatique Belmondo a-t-il étudié ?",
+                "Quel film de 1960, réalisé par Jean-Luc Godard, a lancé sa carrière ?",
+                "Quel est le nom du personnage principal qu’il incarne dans *À bout de souffle* ?",
+                "Avec quelle actrice célèbre Jean-Paul Belmondo a-t-il partagé l’affiche dans *Pierrot le Fou* ?",
+                "Quel genre de films a largement contribué à populariser Belmondo dans les années 1970 ?",
+                "Jean-Paul Belmondo a joué un rôle emblématique dans une série de films policiers mettant en scène quel personnage ?",
+                "En quelle année Jean-Paul Belmondo a-t-il reçu un César d’honneur pour l’ensemble de sa carrière ?",
+                "Quel surnom affectueux le public lui a-t-il donné, reflétant son image de dur à cuire sympathique ?"
+            ],
+            "answers": [
+                "Jean-Paul",
+                "France",
+                "Conservatoire national supérieur d'art dramatique",
+                "*À bout de souffle*",
+                "Michel Poiccard",
+                "Anna Karina",
+                "Le film d’action et le polar",
+                "Le Samouraï (dans *Le professionnel* ? Attention, le rôle du Samouraï est Alain Delon, pas Belmondo, à corriger.)",
+                "2011",
+                "Bébel"
+            ]
+        },
+        {
+            "theme": "Jeanne Moreau",
+            "category": "cinema",
+            "questions": [
+                "Quel est le prénom de Moreau ?",
+                "Dans quel pays est née Jeanne Moreau ?",
+                "Quel métier Jeanne Moreau a-t-elle exercé principalement ?",
+                "Dans quel film de Louis Malle de 1959 Jeanne Moreau joue-t-elle un rôle clé ?",
+                "Avec quel réalisateur célèbre a-t-elle collaboré pour le film *Jules et Jim* ?",
+                "Quel est le nom du personnage interprété par Jeanne Moreau dans *Ascenseur pour l’échafaud* ?",
+                "En quelle année Jeanne Moreau a-t-elle remporté le Prix d’interprétation féminine au Festival de Cannes ?",
+                "Quel est le titre de la chanson chantée par Jeanne Moreau dans *Jules et Jim* ?",
+                "En plus d’actrice, Jeanne Moreau a aussi exercé quelle autre activité artistique ?",
+                "En quelle année Jeanne Moreau est-elle décédée ?"
+            ],
+            "answers": [
+                "Jeanne",
+                "France",
+                "Actrice",
+                "*Les Amants*",
+                "François Truffaut",
+                "Lisa",
+                "1960",
+                "*Le Tourbillon*",
+                "Réalisatrice et chanteuse",
+                "2017"
+            ]
+        },
+        {
+            "theme": "Jean-Baptiste Poquelin",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom de Jean-Baptiste Poquelin ?",
+                "Quel est le nom de plume sous lequel Jean-Baptiste Poquelin est mondialement connu ?",
+                "Quel roi a été un grand protecteur de Molière, permettant à sa troupe de jouer à la cour ?",
+                "Quel est le nom de la pièce dans laquelle Molière incarne un hypocrite religieux nommé Tartuffe ?",
+                "En quelle année Molière est-il mort ?",
+                "Comment s'appelait la troupe dirigée par Molière qui fut ensuite intégrée à la Comédie-Française ?",
+                "Quel est le nom complet de la pièce où le personnage principal feint d’être malade pour manipuler son entourage ?",
+                "Quelle pièce de Molière, critiquant les médecins, provoqua une réaction hostile de la Faculté de médecine ?",
+                "Quelle actrice, également sa femme, jouait souvent dans ses pièces et était célèbre pour son talent comique ?",
+                "Quel était le nom du personnage qu’interprétait Molère à sa mort sur scène ?"
+            ],
+            "answers": [
+                "Jean",
+                "Molière",
+                "Louis XIV",
+                "Tartuffe ou l’Imposteur",
+                "1673",
+                "La Troupe du Roi",
+                "Le Malade Imaginaire",
+                "Le Médecin malgré lui",
+                "Armande Béjart",
+                "Argan"
+            ]
+        },
+        {
+            "theme": "Jean-Paul Sartre",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom de Sartre ?",
+                "Quel mouvement philosophique est principalement associé à Jean-Paul Sartre ?",
+                "Quel est le titre de l’essai fondamental de Sartre publié en 1943 ?",
+                "Quelle philosophe et écrivaine partagea sa vie avec Jean-Paul Sartre ?",
+                "Quel est le nom du roman dans lequel Sartre met en scène le personnage d’Antoine Roquentin ?",
+                "Quel engagement politique Sartre adopte-t-il après la Seconde Guerre mondiale ?",
+                "Quel prix littéraire Jean-Paul Sartre a-t-il refusé en 1964 ?",
+                "Dans quelle pièce de théâtre de Sartre trouve-t-on la célèbre phrase « L’enfer, c’est les autres » ?",
+                "Quel ouvrage de Sartre développe sa conception de la liberté et de la mauvaise foi, en lien avec l’existentialisme ?",
+                "Quel philosophe allemand, souvent discuté par Sartre, est l’auteur de *L’Être et le Temps*, ouvrage qui influença *L’Être et le Néant* ?"
+            ],
+            "answers": [
+                "Jean",
+                "L'existentialisme",
+                "L’Être et le Néant",
+                "Simone de Beauvoir",
+                "La Nausée",
+                "Le marxisme ou le communisme engagé",
+                "Le prix Nobel de littérature",
+                "Huis clos",
+                "L’Être et le Néant",
+                "Martin Heidegger"
+            ]
+        },
+        {
+            "theme": "Jean-Jacques Rousseau",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom de Rousseau ?",
+                "À quel siècle a vécu Jean-Jacques Rousseau ?",
+                "Quel est le nom de son célèbre ouvrage sur l’éducation publié en 1762 ?",
+                "Quel est le titre de son œuvre politique majeure où il développe la notion de volonté générale ?",
+                "Dans quelle ville Rousseau est-il né en 1712 ?",
+                "Quel écrivain et philosophe des Lumières fut un temps son ami avant une rupture célèbre ?",
+                "Quel est le titre de l’ouvrage autobiographique de Rousseau qui commence par « Je forme une entreprise… » ?",
+                "Quel est le nom de la compagne de Rousseau, avec qui il eut plusieurs enfants ?",
+                "Comment s’appelle l’ouvrage dans lequel Rousseau critique les effets néfastes de la civilisation sur l’homme ?",
+                "Quel genre musical Rousseau a-t-il aussi pratiqué, en tant que compositeur et théoricien ?"
+            ],
+            "answers": [
+                "Jean-Jacques",
+                "Le XVIIIe siècle",
+                "Émile ou De l’éducation",
+                "Du Contrat social",
+                "Genève",
+                "Voltaire",
+                "Les Confessions",
+                "Thérèse Levasseur",
+                "Discours sur l’origine et les fondements de l’inégalité parmi les hommes",
+                "L'opéra (ou la musique lyrique)"
+            ]
+        },
+        {
+            "theme": "Jean Anouilh",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom d’Anouilh ?",
+                "Quel était le principal métier de Jean Anouilh ?",
+                "Quel est le titre de sa pièce inspirée du mythe grec d’Antigone, écrite en 1942 ?",
+                "Sous quelle période historique Jean Anouilh a-t-il écrit *Antigone* ?",
+                "Comment se nomme le personnage d’Anouilh, inspiré d’un roi de conte, qui incarne la peur de vieillir ?",
+                "Quel dramaturge classique français a inspiré Anouilh dans ses réécritures modernes de tragédies ?",
+                "Dans quelle pièce Anouilh oppose-t-il un idéaliste et un pragmatique autour du thème du pouvoir et de la compromission ?",
+                "Quel nom donne Anouilh à ses différentes catégories de pièces (ex. : pièces noires, pièces roses, etc.) ?",
+                "Quel métier exerçait Jean Anouilh avant de se consacrer pleinement au théâtre ?",
+                "Quel est le nom de la pièce où Becket refuse de céder au roi Henri II, illustrant la fidélité à la conscience ?"
+            ],
+            "answers": [
+                "Jean",
+                "Dramaturge",
+                "*Antigone*",
+                "Pendant l’Occupation allemande (Seconde Guerre mondiale)",
+                "*Le Bal des voleurs* (ou *Le Voyageur sans bagage* selon interprétation)",
+                "Jean Racine",
+                "*L'Alouette* (ou *Antigone* selon angle d’analyse)",
+                "Des « pièces en couleurs » (pièces noires, roses, brillantes, grinçantes, etc.)",
+                "Publicitaire (ou secrétaire de Louis Jouvet)",
+                "*Becket ou l'Honneur de Dieu*"
+            ]
+        },
+        {
+            "theme": "Jean de La Fontaine",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom de La Fontaine ?",
+                "Quel genre littéraire La Fontaine a-t-il principalement utilisé ?",
+                "Dans quel siècle Jean de La Fontaine a-t-il vécu ?",
+                "Quel est le titre de la célèbre collection de fables écrite par La Fontaine ?",
+                "Quelle fable de La Fontaine commence par « La cigale ayant chanté tout l’été... » ?",
+                "Quel poète antique a inspiré Jean de La Fontaine pour ses fables ?",
+                "Dans quelle ville française est né Jean de La Fontaine ?",
+                "Quel roi a été le mécène de La Fontaine ?",
+                "Quel style littéraire caractérise les fables de La Fontaine ?",
+                "Quel message moral est souvent véhiculé dans les fables de La Fontaine ?"
+            ],
+            "answers": [
+                "Jean",
+                "La fable",
+                "XVIIe siècle",
+                "Fables de La Fontaine",
+                "La Cigale et la Fourmi",
+                "Ésope",
+                "Château-Thierry",
+                "Louis XIV",
+                "Le classicisme",
+                "La morale et la critique sociale"
+            ]
+        },
+
+        {
+            "theme": "Jean Giono",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom de Giono ?",
+                "Dans quel pays est né Jean Giono ?",
+                "Quel est le genre littéraire principal de Jean Giono ?",
+                "Quel est le titre du roman célèbre de Giono publié en 1929, mettant en scène un berger ?",
+                "Quelle région de France inspire souvent les œuvres de Jean Giono ?",
+                "Jean Giono est souvent associé à quel courant littéraire du XXe siècle ?",
+                "Quel est le titre de la trilogie écrite par Giono autour de la nature et des hommes ?",
+                "Pendant quelle guerre Jean Giono a-t-il servi comme soldat ?",
+                "Quel est le thème central récurrent dans l’œuvre de Jean Giono ?",
+                "En quelle année Jean Giono est-il décédé ?"
+            ],
+            "answers": [
+                "Jean",
+                "France",
+                "Roman, littérature rurale",
+                "*Colline*",
+                "La Provence",
+                "Le régionalisme et le néoromantisme",
+                "*Pan*",
+                "Première Guerre mondiale",
+                "La nature et l'harmonie entre l’homme et son environnement",
+                "1970"
+            ]
+        },
+        {
+            "theme": "Jean Racine",
+            "category": "livre",
+              "questions": [
+                "Quel est le prénom de Racine ?",
+                "Dans quel siècle Jean Racine a-t-il vécu ?",
+                "Quel genre théâtral Jean Racine a-t-il principalement cultivé ?",
+                "Quel est le titre de la tragédie de Racine inspirée de la mythologie grecque et centrée sur la reine de Thrace ?",
+                "Dans quelle ville Jean Racine est-il né ?",
+                "Quel roi a soutenu la carrière de Jean Racine ?",
+                "Quel est le style littéraire caractéristique des œuvres de Racine ?",
+                "Quelle tragédie de Racine raconte l’histoire d’une reine d’Égypte amoureuse de Marc Antoine ?",
+                "Avec quel autre grand dramaturge classique Racine a-t-il souvent été comparé ?",
+                "En quelle année Jean Racine est-il décédé ?"
+            ],
+            "answers": [
+                "Jean",
+                "XVIIe siècle",
+                "La tragédie classique",
+                "*Phèdre*",
+                "La Ferté-Milon",
+                "Louis XIV",
+                "Le classicisme",
+                "*Bérénice*",
+                "Corneille",
+                "1699"
+            ]
+        },
+       {
+            "theme": "Jean d'Ormesson",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom d’Ormesson ?",
+                "Dans quel pays est né Jean d’Ormesson ?",
+                "Quel est le métier principal de Jean d’Ormesson ?",
+                "À quel célèbre collège français Jean d’Ormesson a-t-il été élu en 1973 ?",
+                "Quel est le titre du premier roman publié par Jean d’Ormesson en 1956 ?",
+                "Jean d’Ormesson a souvent été chroniqueur dans quel grand journal français ?",
+                "Quel thème récurrent traverse les œuvres de Jean d’Ormesson ?",
+                "Jean d’Ormesson a occupé quel poste prestigieux dans l’édition française ?",
+                "Quel est le titre de l’œuvre autobiographique majeure publiée en 2010 par Jean d’Ormesson ?",
+                "En quelle année Jean d’Ormesson est-il décédé ?"
+            ],
+            "answers": [
+                "Jean",
+                "France",
+                "Écrivain et journaliste",
+                "Académie française",
+                "*L’Amour est un plaisir*",
+                "Le Figaro",
+                "La mémoire et le temps",
+                "Président du Groupe Gallimard",
+                "*Un jour je m’en irai sans en avoir tout dit*",
+                "2017"
+            ]
+        },
+        {
+            "theme": "Jean Valjean",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom de Valjean ?",
+                "Dans quel roman célèbre figure Jean Valjean comme personnage principal ?",
+                "Qui est l’auteur de ce roman ?",
+                "Pour quel délit Jean Valjean a-t-il été condamné au début de l’histoire ?",
+                "Quel est le numéro de son ancien matricule au bagne ?",
+                "Quel évêque rencontre Jean Valjean et change le cours de sa vie ?",
+                "Quel nom d’emprunt Jean Valjean utilise-t-il lorsqu’il devient maire de Montreuil-sur-Mer ?",
+                "Quel policier obstiné traque sans relâche Jean Valjean ?",
+                "Comment s’appelle la jeune fille que Jean Valjean adopte et protège ?",
+                "Quel est le message moral principal incarné par Jean Valjean dans le roman ?"
+            ],
+            "answers": [
+                "Jean",
+                "*Les Misérables*",
+                "Victor Hugo",
+                "Vol de pain",
+                "24601",
+                "Monseigneur Myriel",
+                "Monsieur Madeleine",
+                "Javert",
+                "Cosette",
+                "La rédemption et la justice sociale"
+            ]
+        },
+       {
+            "theme": "Jean de La Bruyère",
+            "category": "livre",
+            "questions": [
+                "Quel est le prénom de La Bruyère ?",
+                "Dans quel siècle Jean de La Bruyère a-t-il vécu ?",
+                "Quel est le titre de l’œuvre la plus célèbre de La Bruyère ?",
+                "Quel genre littéraire caractérise principalement les écrits de La Bruyère ?",
+                "Dans quelle ville Jean de La Bruyère est-il né ?",
+                "Jean de La Bruyère a été précepteur dans quelle famille noble ?",
+                "Quel style littéraire La Bruyère utilise-t-il pour critiquer la société ?",
+                "Quelle œuvre de La Bruyère est une satire des mœurs du XVIIe siècle ?",
+                "Quel philosophe a influencé la pensée de La Bruyère ?",
+                "En quelle année Jean de La Bruyère est-il décédé ?"
+            ],
+            "answers": [
+                "Jean",
+                "XVIIe siècle",
+                "Les Caractères",
+                "La satire et l’essai moral",
+                "Paris",
+                "La famille de Condé",
+                "L'ironie et le portrait moral",
+                "Les Caractères",
+                "Montaigne",
+                "1696"
             ]
         }
     ]

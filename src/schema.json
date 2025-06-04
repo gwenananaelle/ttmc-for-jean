@@ -1,7 +1,7 @@
 {
     "$id": "https://example.com/quiz-cards.json",
     "title": "TTMC for devs",
-    "description": "A collection of quiz cards covering various topics in web development",
+    "description": "A collection of quiz cards covering various famous Jean",
     "type": "object",
     "properties": {
         "cards": {
@@ -17,24 +17,24 @@
                     },
                     "category": {
                         "type": "string",
-                        "enum": ["dev-front", "dev-back", "dev-tools", "algo-paradigms"],
+                        "enum": ["livre", "divers", "musique", "cinema"],
                         "title": "Category",
-                        "description": "One of the 4 categories in which this theme fits (dev-front, dev-back, dev-tools or algo-paradigms)"
+                        "description": "One of the 4 categories in which this theme fits"
                     },
                     "questions": {
                         "type": "array",
                         "title": "Questions",
-                        "description": "The 5 questions of the card",
-                        "minItems": 5,
-                        "maxItems": 5,
+                        "description": "The 10 questions of the card",
+                        "minItems": 10,
+                        "maxItems": 10,
                         "items": {"type": "string", "maxLength": 160}
                     },
                     "answers": {
                         "type": "array",
                         "title": "Answers",
                         "description": "The answer of each question (in the same order)",
-                        "minItems": 5,
-                        "maxItems": 5,
+                        "minItems": 10,
+                        "maxItems": 10,
                         "items": {"type": "string", "maxLength": 160}
                     }
                 },

@@ -24,9 +24,9 @@ const appEl = document.querySelector<HTMLDivElement>('#app')!;
         appEl.innerHTML += `
         <div class="card" style="--color: var(--color-${card.category})">
             <div class="header">
-                <img class="icon" src="/${card.category}.png" alt="${card.category}-logo" />
-                <div class="ttmc">Tu te mets combien en…</div>
-                <div class="theme" style="--size: ${computeFontSizeToFitBox(card.theme, 135, 24, 'QuickSand')}pt">${card.theme}</div>
+                <div class="ttmc" >Tu te mets combien en…</div>
+                <div class="theme" style="--size: ${computeFontSizeToFitBox(card.theme, 135, 12, 'QuickSand')}pt">${card.theme}</div>
+                <img class="icon" src="/${card.category}.svg" alt="${card.category}-logo" />
             </div>
             <div class="questions">${questions
                 .map(
@@ -39,9 +39,8 @@ const appEl = document.querySelector<HTMLDivElement>('#app')!;
         appEl.innerHTML += `
         <div class="card back" style="--color: var(--color-${card.category})">
             <div class="header">
-                <img class="icon" src="/${card.category}.png" alt="${card.category}-logo" />
-                <div class="ttmc">cache le dos de la carte !</div>
                 <div class="theme">RÉPONSES</div>
+                <img class="icon" src="/${card.category}.svg" alt="${card.category}-logo" />
             </div>
             <div class="answers">${answers
                 .map(
