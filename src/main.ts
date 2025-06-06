@@ -37,7 +37,7 @@ for (let i = 0; i < data.cards.length; i += cardsPerPage) {
             <div class="header">
                 <div class="ttmc" >Tu te mets combien en…</div>
                 <div class="theme" >${card.theme}</div>
-                <img class="icon" src="/${card.category}.svg" alt="${card.category}-logo" />
+                <img class="icon" src="/${card.category}.png" alt="${card.category}-logo" />
             </div>
             ${card.instructions ? `<div class="instructions">${card.instructions}</div>` : ''}
             ${card.questions ? `
@@ -68,7 +68,7 @@ for (let i = 0; i < data.cards.length; i += cardsPerPage) {
         <div class="card back" style="--color: var(--color-${card.category})">
             <div class="header">
                 <div class="theme">RÉPONSES</div>
-                <img class="icon" src="/ttmcj-logo.svg" alt="ttmcj-logo" />
+                <img class="icon" src="/ttmcj-logo.png" alt="ttmcj-logo" />
             </div>
             ${card.answers ? `
             <div class="answers">${answers
@@ -94,10 +94,7 @@ html2canvas: { scale: 2, useCORS: true },
 jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
 };
 
-
-for (let i = 1; i < allPages.length; i++) {
-html2pdf().set(opt).from(allPages[i]);
-}
+html2pdf().set(opt).from(appEl).save();
 
 })();
 
