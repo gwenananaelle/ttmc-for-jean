@@ -1,6 +1,6 @@
 {
     "$id": "https://example.com/quiz-cards.json",
-    "title": "TTMC for devs",
+    "title": "TTMC for Jean",
     "description": "A collection of quiz cards covering various famous Jean",
     "type": "object",
     "properties": {
@@ -17,15 +17,20 @@
                     },
                     "category": {
                         "type": "string",
-                        "enum": ["livre", "divers", "musique", "cinema"],
+                        "enum": ["livre", "divers", "musique", "cinema", "challenge"],
                         "title": "Category",
-                        "description": "One of the 4 categories in which this theme fits"
+                        "description": "One of the 5 categories in which this theme fits"
+                    },
+                    "instructions": {
+                        "type": "string",
+                        "title": "Instructions",
+                        "description": "How to answer the challenge"
                     },
                     "questions": {
                         "type": "array",
                         "title": "Questions",
                         "description": "The 10 questions of the card",
-                        "minItems": 10,
+                        "minItems": 0,
                         "maxItems": 10,
                         "items": {"type": "string", "maxLength": 160}
                     },
@@ -33,12 +38,12 @@
                         "type": "array",
                         "title": "Answers",
                         "description": "The answer of each question (in the same order)",
-                        "minItems": 10,
+                        "minItems": 0,
                         "maxItems": 10,
                         "items": {"type": "string", "maxLength": 160}
                     }
                 },
-                "required": ["theme", "category", "questions", "answers"]
+                "required": ["theme", "category"]
             }
         }
     },

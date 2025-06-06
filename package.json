@@ -16,6 +16,8 @@
     },
     "dependencies": {
         "@mapbox/rehype-prism": "^0.8.0",
+        "html2pdf.js": "^0.10.3",
+        "jspdf": "^3.0.1",
         "rehype-stringify": "^10.0.0",
         "remark-parse": "^11.0.0",
         "remark-rehype": "^11.0.0",

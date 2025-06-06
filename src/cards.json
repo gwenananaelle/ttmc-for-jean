@@ -542,23 +542,23 @@
                 "Quel est le métier principal de Jean-Claude Van Damme ?",
                 "Dans quel art martial Jean-Claude Van Damme est-il particulièrement entraîné ?",
                 "Quel film de 1988 a lancé la carrière internationale de Van Damme ?",
-                "Dans quel film Van Damme joue-t-il un rôle de pilote de moto dans une course illégale ?",
+                "Quel titre remporte t-il en 1978",
                 "Jean-Claude Van Damme est souvent surnommé comment ?",
                 "Quel réalisateur a travaillé avec Van Damme sur le film *JCVD* ?",
                 "Jean-Claude Van Damme a aussi une carrière dans quelle autre discipline sportive ?",
-                "En quelle année est né Jean-Claude Van Damme ?"
+                "Quel est le nim de naissance de Jean-Claude Van Damme"
             ],
             "answers": [
                 "Jean-Claude",
                 "Belgique",
                 "Acteur et artiste martial",
                 "Karate et kickboxing",
-                "*Bloodsport*",
-                "*Daylight* (ou *The Motorcycle Gang* ? Note: Il faut corriger : film célèbre avec course moto est *Kickboxer* ou *Street Fighter* n'est pas lié. Peut corriger question ou réponse.)",
+                "Bloodsport",
+                "Mister Belgium",
                 "The Muscles from Brussels",
                 "Olivier Van Hoofstadt (réalisateur de *JCVD*)",
                 "Kickboxing",
-                "1960"
+                "Jean-Claude Camille François Van Varenberg"
             ]
         },
         {
@@ -1120,6 +1120,182 @@
                 "Les Caractères",
                 "Montaigne",
                 "1696"
+            ]
+        },
+        {
+            "theme": "Monsieur et Madame",
+            "category": "challenge",
+            "instructions": "Avance d’une case par blague trouvée.",
+            "questions": [
+                "Monsieur et Madame ont un fils qui s’appelle Jean. Quel est leur nom ?"
+            ],
+            "answers": [
+                "Heuuu"
+            ]
+        },
+        {
+            "theme": "Famille Nombreuse",
+            "category": "challenge",
+            "instructions": "Les parents de Jean ont plusieurs enfants. Avance d'une case pour chaque prénom trouvé, et d'une case bonus si tu les donnes dans le bon ordre.",
+            "questions": [
+                "Cites tous les enfants Cailleau dans l'ordre ?"
+            ],
+            "answers": [
+                "Heuuu"
+            ]
+        },
+        {
+            "theme": "Autour du monde",
+            "category": "challenge",
+            "instructions": "Jean part en vacances. Comment l’appelle-t-on dans les pays suivants ? Avance d'une case par réponse trouvée",
+            "questions": [
+                "Irlande",
+                "Portugal",
+                "Espagne",
+                "Norvège",
+                "Australie",
+                "Chine",
+                "Italien",
+                "Allemagne"
+            ],
+            "answers": [
+                "Seán",
+                "João",
+                "Juan",
+                "Jan",
+                "La satire et l’essai moral",
+                "John",
+                "Chang",
+                "Giovanni",
+                "Johannes"
+            ]
+        },
+        {
+            "theme": "Le talent!",
+            "category": "challenge",
+            "instructions": "Jean est extraordinaire… mais à quel point ? Réponds vrai ou faux à chaque affirmation et avance d'une case par réponse trouvée",
+            "questions": [
+                "Jean a été le premier de la classe tous les ans au collège",
+                "Jean a eu la mention très bien au bac",
+                "Jean parle 3 langues différentes",
+                "Jean peut soulever une voiture",
+                "Jean sait toujours où sont ses clefs",
+                "Jean n’a jamais perdu contre Morgan à Ark Nova",
+                "Jean connaît la date de naissance de tous ses amis ici présents",
+                "Jean peut faire le poirier"
+            ],
+            "answers": [
+                "Faut demander à Jean"
+            ]
+        },
+        {
+            "theme": "Jean vs Gens",
+            "category": "challenge",
+            "instructions": "Avance d'une case par bonne réponse mais recule d'une case à chaque erreur.",
+            "questions": [
+                "Y a-t-il plus de papes 'Jean' que de rois 'Jean' ?",
+                "Quel est le prénom le plus porté aux USA : Jean ou John ?",
+                "Y a-t-il plus de Jean que de Jeanne en France ?",
+                "Quel est le tissu le plus utilisé : le jean ou le lin ?",
+                "Quelle est la chanson la plus écoutée : Blue Jeans de Lana Del Rey ou Blue Jean de David Bowie ?",
+                "Quel est le prénom de Marilyn Monroe : Norma Jean ou Norma Jeane ?",
+                "Y a-t-il plus de Jean-Claude ou plus de Jean-Pierre en France ?",
+                "Qui a eu le plus de votes : Jean-Luc Mélenchon en 2022 ou Jean-Marie Le Pen en 2002?"
+            ],
+            "answers": [
+                "De papes",
+                "John",
+                "Jean",
+                "Jean",
+                "Lana Del Rey",
+                "Norma Jeane",
+                "Jean Pierre",
+                "Jean Luc Mélenchon"
+            ]
+        },
+        {
+            "theme": "Jean aux scouts",
+            "category": "challenge",
+            "instructions": "Avance d'une case par bonne réponse mais recule d'une case à chaque erreur.",
+            "questions": [
+                "Comment s'appelle la personne qui a le plus été aux scouts autour de cette table ?",
+                "quel est le signe des scouts ?",
+                "Combien de fois jean a t'il arrêté les scouts ?",
+                "De quelles couleurs sont les chemises scouts qu'a porté Jean ?",
+                "Combien d'années jean as t'il été scout ?",
+                "quel est l'endroit le plus haut où jean est monté avec les scouts ?",
+                "comment s'appelle le garçon venant d'un autre groupe emmené par Jean aux États Unis pour un Jamborré ?",
+                "de quoi est composé un repas de trappeur ? ",
+                "Quel objet Winnie a t’elle voulu planter dans Jean ?",
+                "combien de poutres à 1 prêt faut il pour faire une table ?"
+            ],
+            "answers": [
+                "Jean",
+                "Je ne sais pas, faut demander à Jean",
+                "Une",
+                "Jaune, Orange,Bleu, Rouge, Vert, Violet",
+                "22 ans?",
+                "MAchu Pichu",
+                "Robin?",
+                "Pomme de terre avec lardons et crème dans de l'alu au feu de bois et banane chocolat au feu de bois",
+                "une fourchette",
+                "10"
+            ]
+        },
+        {
+            "theme": "Jean-François Champollion",
+            "category": "divers",
+            "questions": [
+                "Quel est le prénom de Champollion, le célèbre déchiffreur des hiéroglyphes ?",
+                "Quel pays est principalement associé aux hiéroglyphes que Champollion a déchiffrés ?",
+                "Quel support célèbre, découvert en 1799, a permis à Champollion de décrypter les hiéroglyphes ?",
+                "Combien de langues figurent sur la pierre de Rosette ?",
+                "Quel autre savant, britannique, a été le principal rival de Champollion dans la course au déchiffrement ?",
+                "À quel âge (approximatif) Champollion a-t-il présenté son célèbre “Mémoire sur les hiéroglyphes” ?",
+                "Dans quelle ville française est né Champollion ?",
+                "Quel nom de pharaon a-t-il d’abord réussi à lire en hiéroglyphes, marquant un tournant dans ses recherches ?",
+                "Quelle institution française a nommé Champollion conservateur des antiquités égyptiennes en 1826 ?",
+                "Quel est le nom complet de l’ouvrage majeur de Champollion publié après sa mort, qui constitue une grammaire complète des hiéroglyphes ?"
+            ],
+            "answers": [
+                "Jean-François",
+                "L'Égypte",
+                "La pierre de Rosette",
+                "Trois (hiéroglyphes, démotique, grec)",
+                "Thomas Young",
+                "Environ 32 ans (en 1822)",
+                "Figeac",
+                "Ramsès (ou Ptolémée selon les sources ; les deux ont joué un rôle clé)",
+                "Le musée du Louvre",
+                "Grammaire égyptienne (publiée en 1836, à titre posthume)"
+            ]
+        },
+        {
+            "theme": "Jean-François Copé",
+            "category": "divers",
+            "questions": [
+                "Quel est le prénom de Copé, homme politique français né en 1964 ?",
+                "À quel grand parti de droite Jean-François Copé a-t-il longtemps appartenu ?",
+                "De quelle ville Jean-François Copé est-il le maire (depuis 1995, avec une interruption) ?",
+                "Quel poste Copé a-t-il occupé dans le gouvernement Raffarin en 2004 ?",
+                "Quel surnom médiatique a été donné à l’affaire politico-financière qui a entaché Copé en 2014 ?",
+                "Quel exemple culinaire a été utilisé par Copé en 2012 pour dénoncer le “racisme anti-Blancs” ?",
+                "En 2012, qui était son adversaire principal pour la présidence de l’UMP, dans une élection très contestée ?",
+                "Combien de voix d’avance (environ) Copé avait-il revendiqué à l’issue de cette élection interne ?",
+                "Quel est le titre du livre publié par Copé en 2016, dans lequel il évoque son avenir politique ?",
+                "En 2015, dans un souci de réhabilitation médiatique, dans quelle émission de divertissement populaire Copé est-il apparu aux côtés de Kev Adams ?"
+            ],
+            "answers": [
+                "Jean-François",
+                "L’UMP (Union pour un Mouvement Populaire)",
+                "Meaux (Seine-et-Marne)",
+                "Ministre délégué au Budget et à la Réforme de l’État",
+                "L’affaire Bygmalion",
+                "Le pain au chocolat (affaire du “pain au chocolat arraché pendant le ramadan”)",
+                "François Fillon",
+                "Environ 98 voix (sur plus de 170 000 votants)",
+                "Le sursaut français",
+                "“Vendredi tout est permis” (avec Arthur)"
             ]
         }
     ]
